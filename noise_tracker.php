@@ -11,9 +11,9 @@ if (!isset($_GET["state"]) || !isset($_GET["errors"])) {
   $line = date("Y-m-d");
   $line .= "T";
   $line .= date("H:i:s");
-  $line .= ",";
+  $line .= ";";
   $line .= $_GET["state"];
-  $line .= ",";
+  $line .= ";";
   $line .= $_GET["errors"];
   $line .= "\n";
   file_put_contents($file, $line, FILE_APPEND | LOCK_EX);
