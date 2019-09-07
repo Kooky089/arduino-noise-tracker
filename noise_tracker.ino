@@ -2,6 +2,7 @@
 // Can track the operating state of devices through their noise and pushes data to given URL
 // Copyright (c) 2019, Volker Jacht
 // License: BSD 2-Clause License
+// Project: https://github.com/Kooky089/arduino-noise-tracker/
 
 #include <ESP8266WiFi.h>
 
