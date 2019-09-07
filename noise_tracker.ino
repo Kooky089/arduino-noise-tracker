@@ -1,5 +1,7 @@
 // Noise Tracker
 // Can track the operating state of devices through their noise and pushes data to given URL
+// Copyright (c) 2019, Volker Jacht
+// License: BSD 2-Clause License
 
 #include <ESP8266WiFi.h>
 
