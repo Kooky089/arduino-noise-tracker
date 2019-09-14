@@ -1,6 +1,7 @@
+//
 // Copyright (c) 2019, Volker Jacht
 // License: BSD 2-Clause License
-// Project: https://github.com/Kooky089/arduino-noise-tracker/
+// Project: https://github.com/Kooky089/
 
 <?php
 if (!isset($_GET["state"]) || !isset($_GET["errors"])) {
